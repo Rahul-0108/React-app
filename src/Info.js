@@ -74,7 +74,6 @@ return (
             <h1 style = {{textAlign:"center" , marginTop:"40px"}}>All Books in BookShare App</h1>
                <div style={{marginLeft: "25%", marginTop:"20px"}}>
               <table>
-              <table>
                  <tbody>
                     <tr>{this.renderTableHeader()}</tr>
                     {this.renderTableData()}
