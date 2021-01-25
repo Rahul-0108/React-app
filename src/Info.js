@@ -72,7 +72,7 @@ return (
         <h1 style={{backgroundColor :"black",color : "white" , padding : "8px" , fontSize : "28px" ,  width:"88%"}}>Welcome {this.props.name}</h1>
         <div>
               <h1 style = {{textAlign:"center" , margin : "80px 2px 0px 0px"}}>All Books in BookShare App</h1>
-              <div style={{margin: "40px 0px 0px 440px"}}>
+               <div style={{marginLeft: "25%", marginTop:"20px"}}>
               <table>
                  <tbody>
                     <tr>{this.renderTableHeader()}</tr>
